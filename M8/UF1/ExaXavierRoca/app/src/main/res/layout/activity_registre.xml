@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistreActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Titol"
+        android:text="MediaMarket"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Usuari"
+        android:text="Usuari: "
+        app:layout_constraintTop_toBottomOf="@id/tv_Titol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Pass"
+        android:text="Password: "
+        app:layout_constraintTop_toBottomOf="@id/tv_Usuari"
+        app:layout_constraintStart_toStartOf="@id/tv_Titol"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Usuari"
+        android:hint="Usuari"
+        android:inputType="text"
+
+        app:layout_constraintStart_toEndOf="@id/tv_Usuari"
+        app:layout_constraintTop_toBottomOf="@id/tv_Titol"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Pass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@id/tv_Usuari"
+        app:layout_constraintStart_toEndOf="@id/tv_Pass"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_PassConf"
+        android:text="Password: "
+        app:layout_constraintTop_toBottomOf="@id/tv_Pass"
+        app:layout_constraintStart_toStartOf="@id/tv_Pass"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_PassConf"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        app:layout_constraintTop_toBottomOf="@id/tv_Pass"
+        app:layout_constraintStart_toEndOf="@id/tv_PassConf"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Img"
+        android:text="Imatge: "
+        app:layout_constraintTop_toBottomOf="@id/tv_PassConf"
+        app:layout_constraintStart_toStartOf="@id/tv_PassConf"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Img"
+        android:hint="Imatge"
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/tv_PassConf"
+        app:layout_constraintStart_toEndOf="@id/tv_Img"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bRegister"
+        android:text="Registra"
+        app:layout_constraintTop_toBottomOf="@id/tv_Img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

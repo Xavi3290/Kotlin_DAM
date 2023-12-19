@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AfegirProducte">
+
+    <TextView
+        android:id="@+id/titolAfegirProducte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Afegir producte"
+        android:textAlignment="center"
+        android:textColor="#3949AB"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripció"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_below="@id/titolAfegirProducte"
+        android:layout_margin="10dp"
+        android:id="@+id/descAfegirProducte"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripció completa"
+        android:id="@+id/descAfegirCompleta"
+        android:layout_margin="10dp"
+        android:layout_below="@id/descAfegirProducte"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imatge"
+        android:id="@+id/imatgeAfegir"
+        android:layout_margin="10dp"
+        android:layout_below="@id/descAfegirCompleta"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/preuAfegir"
+        android:layout_margin="10dp"
+        android:hint="Preu"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/imatgeAfegir"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTipusProducteAfegir"
+        android:text="Tipus de producte"
+        android:layout_margin="10dp"
+        android:layout_below="@id/preuAfegir"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#1E88E5"/>
+
+    <RadioGroup
+        android:id="@+id/rgTipusProducte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTipusProducteAfegir"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/tipusOrdinador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Ordinador" />
+
+        <RadioButton
+            android:id="@+id/tipusSmartphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Smartphone" />
+
+        <RadioButton
+            android:id="@+id/tipusTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="TV" />
+
+        <RadioButton
+            android:id="@+id/tipusMobilitat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Mobilitat" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCardViewAfegir"
+        android:text="Tipus de CardView"
+        android:layout_margin="10dp"
+        android:layout_below="@id/rgTipusProducte"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#1E88E5"/>
+
+    <RadioGroup
+        android:id="@+id/rgTipusCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCardViewAfegir"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipusCVNormal"
+            android:layout_margin="5dp"
+            android:text="Normal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipusCVOferta"
+            android:layout_margin="5dp"
+            android:text="Oferta" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/tipusCVEspecial"
+            android:text="Especial" />
+    </RadioGroup>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btAfegir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgTipusCardView"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/ic_input_add" />
+</RelativeLayout>

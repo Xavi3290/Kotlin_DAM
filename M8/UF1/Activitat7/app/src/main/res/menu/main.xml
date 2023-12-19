@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mMoodle"
+        android:title="Anar al moodle"
+        android:icon="@drawable/logovallbona"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/mCorreu"
+        android:title="Anar al correu electronic"
+        android:icon="@drawable/email_ic_launcher_foreground"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Idioma">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/mCatala"
+                    android:title="Català"
+                    />
+                <item
+                    android:id="@+id/mCastella"
+                    android:title="Castellà"
+                    />
+                <item
+                    android:id="@+id/mAngles"
+                    android:title="Anglès"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

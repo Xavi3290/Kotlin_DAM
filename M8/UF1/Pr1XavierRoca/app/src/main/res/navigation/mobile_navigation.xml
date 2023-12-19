@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pr1xavierroca.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_Dogs"
+        android:name="com.example.pr1xavierroca.navDogs"
+        android:label="fragment_nav_dogs"
+        tools:layout="@layout/fragment_nav_dogs" />
+    <fragment
+        android:id="@+id/nav_Cats"
+        android:name="com.example.pr1xavierroca.navCats"
+        android:label="fragment_nav_cats"
+        tools:layout="@layout/fragment_nav_cats" />
+    <fragment
+        android:id="@+id/nav_Calendari"
+        android:name="com.example.pr1xavierroca.navCalendari"
+        android:label="fragment_nav_calendari"
+        tools:layout="@layout/fragment_nav_calendari" />
+
+</navigation>

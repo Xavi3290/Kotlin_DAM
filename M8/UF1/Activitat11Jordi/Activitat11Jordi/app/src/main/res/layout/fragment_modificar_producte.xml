@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModificarProducte">
+
+    <TextView
+        android:id="@+id/titolModificarProducte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Modificar producte"
+        android:textAlignment="center"
+        android:textColor="#3949AB"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/CodiModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titolModificarProducte"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#E0F7FA" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/CodiModificar">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripció"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_margin="10dp"
+            android:id="@+id/descModificarProducte"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripció completa"
+            android:id="@+id/descModificarCompleta"
+            android:layout_margin="10dp"
+            android:layout_below="@id/descModificarProducte"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imatge"
+            android:id="@+id/imatgeModificar"
+            android:layout_margin="10dp"
+            android:layout_below="@id/descModificarCompleta"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/preuModificar"
+            android:layout_margin="10dp"
+            android:hint="Preu"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/imatgeModificar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTipusProducteModificar"
+            android:text="Tipus de producte"
+            android:layout_margin="10dp"
+            android:layout_below="@id/preuModificar"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#1E88E5"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTipusProducteModificar"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:id="@+id/rgTipusProducte">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusOrdinador"
+                android:text="Ordinador"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusSmartphone"
+                android:text="Smartphone"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusTV"
+                android:text="TV"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusMobilitat"
+                android:text="Mobilitat"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCardViewAfegir"
+            android:text="Tipus de CardView"
+            android:layout_margin="10dp"
+            android:layout_below="@id/rgTipusProducte"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#1E88E5"/>
+
+        <RadioGroup
+            android:id="@+id/rgTipusCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCardViewAfegir"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipusCVNormal"
+                android:layout_margin="5dp"
+                android:text="Normal" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipusCVOferta"
+                android:layout_margin="5dp"
+                android:text="Oferta" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusCVEspecial"
+                android:text="Especial" />
+        </RadioGroup>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rgTipusCardView"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="10dp"
+            android:src="@android:drawable/ic_menu_edit" />
+    </RelativeLayout>
+
+</RelativeLayout>

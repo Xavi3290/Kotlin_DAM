@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:title="@string/alimentacio"
+            android:id="@+id/alimentacio"
+            >
+            <menu>
+                <group>
+                    <item
+                        android:title="@string/begudes"
+                        android:id="@+id/nav_drink"
+                        android:icon="@android:drawable/btn_star"/>
+                    <item
+                        android:title="@string/carn"
+                        android:id="@+id/nav_meet"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:title="@string/drogueria"
+            android:id="@+id/drogueria">
+            <menu>
+                <group>
+                    <item
+                        android:title="@string/xampus"
+                        android:id="@+id/nav_xampu"/>
+                    <item
+                        android:title="@string/desodorants"
+                        android:id="@+id/nav_deodorants"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

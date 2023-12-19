@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BreedDetails">
+
+    <TextView
+        android:id="@+id/breedName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvadap"
+        android:layout_marginTop="15dp"
+        android:textFontWeight="700"
+        android:fontFamily="@font/cagliostro"
+        android:textColor="#00695C"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvadap"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/adaptability"
+        android:textFontWeight="700"
+        app:layout_constraintBottom_toTopOf="@id/tvafeclevel"
+        app:layout_constraintRight_toLeftOf="@id/adapt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/breedName" />
+
+    <RatingBar
+        android:id="@+id/adapt"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:numStars="5"
+        android:progress="1"
+        android:rating="3"
+        android:stepSize="1"
+         app:layout_constraintLeft_toRightOf="@id/tvadap"
+        app:layout_constraintTop_toTopOf="@id/tvadap" />
+
+
+    <TextView
+        android:id="@+id/tvafeclevel"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/affection_level"
+        android:textFontWeight="700"
+        app:layout_constraintBottom_toTopOf="@id/cfaurl"
+        app:layout_constraintRight_toLeftOf="@id/affect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvadap" />
+
+    <RatingBar
+        android:id="@+id/affect"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:numStars="5"
+        android:progress="1"
+        android:rating="3"
+        android:stepSize="1"
+        app:layout_constraintStart_toEndOf="@+id/tvafeclevel"
+        app:layout_constraintTop_toTopOf="@id/tvafeclevel" />
+
+
+    <TextView
+        android:id="@+id/tvurl"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/url"
+        android:textFontWeight="700"
+        app:layout_constraintBottom_toTopOf="@id/childfriendly"
+        app:layout_constraintRight_toLeftOf="@id/cfaurl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvafeclevel" />
+
+    <TextView
+        android:id="@+id/cfaurl"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/childfriendly"
+        app:layout_constraintStart_toEndOf="@+id/tvurl"
+        app:layout_constraintTop_toBottomOf="@id/affect" />
+
+
+    <TextView
+        android:id="@+id/tvchilfriendly"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/child_friendly"
+        android:textFontWeight="700"
+        app:layout_constraintRight_toLeftOf="@id/childfriendly"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvurl" />
+
+    <RatingBar
+        android:id="@+id/childfriendly"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:numStars="5"
+        android:progress="1"
+        android:rating="3"
+        android:stepSize="1"
+        app:layout_constraintStart_toEndOf="@id/tvchilfriendly"
+        app:layout_constraintTop_toBottomOf="@id/tvurl" />
+
+
+    <TextView
+        android:id="@+id/tvdescription"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/description"
+        android:textFontWeight="700"
+        app:layout_constraintRight_toLeftOf="@id/description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvchilfriendly" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tvdescription"
+        app:layout_constraintTop_toBottomOf="@id/tvchilfriendly" />
+
+    <TextView
+        android:id="@+id/tvdog_friendly"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dog_friendly"
+        android:textFontWeight="700"
+        app:layout_constraintRight_toLeftOf="@id/dogfriendly"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description" />
+
+    <RatingBar
+        android:id="@+id/dogfriendly"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:numStars="5"
+        android:progress="1"
+        android:rating="3"
+        android:stepSize="1"
+        app:layout_constraintLeft_toRightOf="@id/tvdog_friendly"
+        app:layout_constraintTop_toTopOf="@id/tvdog_friendly" />
+
+    <TextView
+        android:id="@+id/tvenergy_level"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/energy_level"
+        android:textFontWeight="700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvdog_friendly" />
+
+    <RatingBar
+        android:id="@+id/energylevel"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:numStars="5"
+        android:progress="1"
+        android:rating="3"
+        android:stepSize="1"
+        app:layout_constraintLeft_toRightOf="@id/tvenergy_level"
+        app:layout_constraintTop_toTopOf="@id/tvenergy_level" />
+
+    <TextView
+        android:id="@+id/tvtemperament"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/temperament"
+        android:textFontWeight="700"
+        app:layout_constraintRight_toLeftOf="@id/temperament"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/energylevel" />
+
+    <TextView
+        android:id="@+id/temperament"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/rv2"
+        app:layout_constraintLeft_toRightOf="@id/tvtemperament"
+        app:layout_constraintTop_toTopOf="@id/tvtemperament" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperament" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

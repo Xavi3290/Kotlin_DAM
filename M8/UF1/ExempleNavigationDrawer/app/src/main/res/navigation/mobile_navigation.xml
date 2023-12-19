@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.exemplenavigationdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_drink"
+        android:name="com.example.exemplenavigationdrawer.nav_drink"
+        android:label="fragment_nav_drink"
+        tools:layout="@layout/fragment_nav_drink" />
+    <fragment
+        android:id="@+id/nav_meat"
+        android:name="com.example.exemplenavigationdrawer.nav_meat"
+        android:label="fragment_nav_meat"
+        tools:layout="@layout/fragment_nav_meat" />
+    <fragment
+        android:id="@+id/nav_xampu"
+        android:name="com.example.exemplenavigationdrawer.nav_xampu"
+        android:label="fragment_nav_xampu"
+        tools:layout="@layout/fragment_nav_xampu" />
+    <fragment
+        android:id="@+id/nav_desodorant"
+        android:name="com.example.exemplenavigationdrawer.new_desodorant"
+        android:label="fragment_new_desodorant"
+        tools:layout="@layout/fragment_new_desodorant" />
+
+</navigation>

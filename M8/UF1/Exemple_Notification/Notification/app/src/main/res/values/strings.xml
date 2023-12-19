@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exemple de notificacions</string>
+    <string name="channel_name">Notificacions</string>
+    <string name="channel_description">Notificacions_del_canal</string>
+    <string name="channel_id">channel_id</string>
+    <string name="textLlarg">text llarg text llarg text llarg text llarg text llarg text llarg text llarg text llarg text llarg text llarg</string>
+    <string name="titol">Títol de la notificació</string>
+    <string name="descripcio">Descripció de la notificació </string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_M6UF1"
+        android:name="com.example.activitat7.nav_M6UF1"
+        android:label="fragment_nav__m6_u_f1"
+        tools:layout="@layout/fragment_nav__m6_u_f1" />
+    <fragment
+        android:id="@+id/nav_M6UF2"
+        android:name="com.example.activitat7.nav_M6UF2"
+        android:label="fragment_nav__m6_uf2"
+        tools:layout="@layout/fragment_nav__m6_uf2" />
+    <fragment
+        android:id="@+id/nav_M6UF3"
+        android:name="com.example.activitat7.nav_M6UF3"
+        android:label="fragment_nav__m6_uf3"
+        tools:layout="@layout/fragment_nav__m6_uf3" />
+    <fragment
+        android:id="@+id/nav_M6UF4"
+        android:name="com.example.activitat7.nav_M6UF4"
+        android:label="fragment_nav__m6_uf4"
+        tools:layout="@layout/fragment_nav__m6_uf4" />
+    <fragment
+        android:id="@+id/nav_M7UF1"
+        android:name="com.example.activitat7.nav_M7UF1"
+        android:label="fragment_nav__m7_uf1"
+        tools:layout="@layout/fragment_nav__m7_uf1" />
+    <fragment
+        android:id="@+id/nav_M7UF2"
+        android:name="com.example.activitat7.nav_M7UF2"
+        android:label="fragment_nav__m7_uf2"
+        tools:layout="@layout/fragment_nav__m7_uf2" />
+    <fragment
+        android:id="@+id/nav_M8UF1"
+        android:name="com.example.activitat7.nav_M8UF1"
+        android:label="fragment_nav__m8_uf1"
+        tools:layout="@layout/fragment_nav__m8_uf1" />
+    <fragment
+        android:id="@+id/nav_M8UF2"
+        android:name="com.example.activitat7.nav_M8UF2"
+        android:label="fragment_nav__m8_uf2"
+        tools:layout="@layout/fragment_nav__m8_uf2" />
+    <fragment
+        android:id="@+id/nav_M8UF3"
+        android:name="com.example.activitat7.nav_M8UF3"
+        android:label="fragment_nav__m8_uf3"
+        tools:layout="@layout/fragment_nav__m8_uf3" />
+    <fragment
+        android:id="@+id/nav_M9UF1"
+        android:name="com.example.activitat7.nav_M9UF1"
+        android:label="fragment_nav__m9_uf1"
+        tools:layout="@layout/fragment_nav__m9_uf1" />
+    <fragment
+        android:id="@+id/nav_M9UF2"
+        android:name="com.example.activitat7.nav_M9UF2"
+        android:label="fragment_nav__m9_uf2"
+        tools:layout="@layout/fragment_nav__m9_uf2" />
+    <fragment
+        android:id="@+id/nav_M9UF3"
+        android:name="com.example.activitat7.nav_M9UF3"
+        android:label="fragment_nav__m9_uf3"
+        tools:layout="@layout/fragment_nav__m9_uf3" />
+    <fragment
+        android:id="@+id/nav_M10UF1"
+        android:name="com.example.activitat7.nav_M10UF1"
+        android:label="fragment_nav__m10_uf1"
+        tools:layout="@layout/fragment_nav__m10_uf1" />
+    <fragment
+        android:id="@+id/nav_M10UF2"
+        android:name="com.example.activitat7.nav_M10UF2"
+        android:label="fragment_nav__m10_uf2"
+        tools:layout="@layout/fragment_nav__m10_uf2" />
+    <fragment
+        android:id="@+id/nav_M13UF1"
+        android:name="com.example.activitat7.nav_M13UF1"
+        android:label="fragment_nav__m13_uf1"
+        tools:layout="@layout/fragment_nav__m13_uf1" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.activitat7.nav_home"
+        android:label="fragment_nav_home"
+        tools:layout="@layout/fragment_nav_home" />
+</navigation>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Activitat7</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="XavierRoca">Xavier Roca</string>
+    <string name="_2n_de_cfgs_de_dam">2n de CFGS de DAM</string>
+    <string name="m6_acc_s_a_dades">M6 - Accès a Dades</string>
+    <string name="uf1_persist_ncia_en_fiters">UF1 - Persistència en fitxers</string>
+    <string name="persist_ncia_en_bdr_bdor_bdoo">UF2 - Persistència en BDR-BDOR-BDOO</string>
+    <string name="persist_ncia_en_bd_natives_xml">UF3 - Persistència en BD natives XML</string>
+    <string name="components_d_acc_s_a_dades">UF4 - Components d\'accés a dades</string>
+    <string name="m7_desenvolupament_d_interficies">M7 - Desenvolupament d\'interficies</string>
+    <string name="uf1_disseny_i_implementaci_d_interf_cies">UF1 - Disseny i implementació d’interfícies</string>
+    <string name="uf2_preparaci_i_distribuci_d_aplicacions">UF2 - Preparació i distribució d’aplicacions</string>
+    <string name="m8_programaci_multim_dia_i_dispositius_m_bils">M8 - Programació multimèdia i dispositius mòbils</string>
+    <string name="uf1_desenvolupament_d_aplicacions_per_dispositius_m_bils">UF1 - Desenvolupament d’aplicacions per dispositius mòbils</string>
+    <string name="uf2_programaci_multim_dia">UF2 - Programació multimèdia</string>
+    <string name="uf3_desenvolupament_de_jocs_per_dispositius_m_bils">UF3 - Desenvolupament de jocs per dispositius mòbils</string>
+    <string name="m0_programaci_de_serveis_i_processos">M9 - Programació de serveis i processos</string>
+    <string name="uf1_seguretat_i_criptografia">UF1 - Seguretat i Criptografia</string>
+    <string name="uf2_processos_i_fils">UF2 - Processos i fils</string>
+    <string name="uf3_s_cols_i_serveis">UF3 - Sòcols i serveis</string>
+    <string name="m10_sistemes_de_gesti_empresarial">M10 - Sistemes de gestió empresarial</string>
+    <string name="uf1_sistemes_erp_crm_implantaci">UF1 - Sistemes ERP-CRM. Implantació</string>
+    <string name="uf2_sistemes_erp_crm_explotaci_i_adequaci">UF2 - Sistemes ERP-CRM. Explotació i adequació</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="m6_uf1">M6 - UF1</string>
+    <string name="m6_uf2">M6 - UF2</string>
+    <string name="m6_uf3">M6 - UF3</string>
+    <string name="m6_uf4">M6 - UF4</string>
+    <string name="m7_uf1">M7 - UF1</string>
+    <string name="m7_uf2">M7 - UF2</string>
+    <string name="m8_uf1">M8 - UF1</string>
+    <string name="m8_uf2">M8 - UF2</string>
+    <string name="m8_uf3">M8 - UF3</string>
+    <string name="m9_uf1">M9 - UF1</string>
+    <string name="m9_uf2">M9 - UF2</string>
+    <string name="m9_uf3">M9 - UF3</string>
+    <string name="m10_uf1">M10 - UF1</string>
+    <string name="m10_uf2">M10 - UF2</string>
+    <string name="principal">Principal</string>
+    <string name="m13_uf1">M13 - UF1</string>
+</resources>

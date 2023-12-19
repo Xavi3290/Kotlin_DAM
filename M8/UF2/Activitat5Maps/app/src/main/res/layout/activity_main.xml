@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/top"
+            android:layout_width="403dp"
+            android:layout_height="123dp"
+            android:src="@drawable/top_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Afegeix localitzacions"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvCoordinades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Coordinades"
+        android:textAlignment="center"
+        android:textColor="#536DFE"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ETNovaLocalitzacio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_edit"
+        android:hint="Nom localització"
+        android:padding="4dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/BTLlistar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/background_buttons"
+            android:contentDescription="Rutes"
+            android:paddingTop="0dp"
+            android:src="@android:drawable/ic_search_category_default"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Rutes"
+            android:textColor="#536DFE"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/BTLlistar"
+            app:layout_constraintEnd_toEndOf="@id/BTLlistar"
+            app:layout_constraintStart_toStartOf="@id/BTLlistar" />
+
+        <ImageButton
+            android:id="@+id/BTAfegir"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/background_buttons"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Afegir"
+            android:textColor="#536DFE"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/BTAfegir"
+            app:layout_constraintEnd_toEndOf="@id/BTAfegir"
+            app:layout_constraintStart_toStartOf="@id/BTAfegir" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

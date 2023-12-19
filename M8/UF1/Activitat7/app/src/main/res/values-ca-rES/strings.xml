@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activitat 7</string>
+    <string name="navigation_drawer_open">Obrir navigation drawer</string>
+    <string name="navigation_drawer_close">Tancar navigation drawer</string>
+    <string name="action_settings">Opcions</string>
+    <string name="menu_home">Principal</string>
+    <string name="hello_blank_fragment">Hola fragment en blanc</string>
+</resources>

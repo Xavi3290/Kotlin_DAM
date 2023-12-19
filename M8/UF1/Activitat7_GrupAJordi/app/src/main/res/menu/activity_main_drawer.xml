@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/m6"
+            android:title="@string/m6">
+            <menu>
+                <group>
+                    <item android:id="@+id/m6uf1"
+                        android:title="@string/m6uf1"/>
+                    <item android:id="@+id/m6uf2"
+                        android:title="@string/m6uf2"/>
+                    <item android:id="@+id/m6uf3"
+                        android:title="@string/m6uf3"/>
+                    <item android:id="@+id/m6uf4"
+                        android:title="@string/m6uf4"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/m7"
+            android:title="@string/m7">
+            <menu>
+                <group>
+                    <item android:id="@+id/m7uf1"
+                        android:title="@string/m7uf1"/>
+                    <item android:id="@+id/m7uf2"
+                        android:title="@string/m7uf2"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/m8"
+            android:title="@string/m8">
+            <menu>
+                <group>
+                    <item android:id="@+id/m8uf1"
+                        android:title="@string/m8uf1"/>
+                    <item android:id="@+id/m8uf2"
+                        android:title="@string/m8uf2"/>
+                    <item android:id="@+id/m8uf3"
+                        android:title="@string/m8uf3"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/m9"
+            android:title="@string/m9">
+            <menu>
+                <group>
+                    <item android:id="@+id/m9uf1"
+                        android:title="@string/m9uf1"/>
+                    <item android:id="@+id/m9uf2"
+                        android:title="@string/m9uf2"/>
+                    <item android:id="@+id/m9uf3"
+                        android:title="@string/m9uf3"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/m10"
+            android:title="@string/m10">
+            <menu>
+                <group>
+                    <item android:id="@+id/m10uf1"
+                        android:title="@string/m10uf1"/>
+                    <item android:id="@+id/m10uf2"
+                        android:title="@string/m10uf2"/>
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/m13"
+            android:title="@string/m13">
+            <menu>
+                <group>
+                    <item android:id="@+id/m13uf1"
+                        android:title="@string/m13uf1"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

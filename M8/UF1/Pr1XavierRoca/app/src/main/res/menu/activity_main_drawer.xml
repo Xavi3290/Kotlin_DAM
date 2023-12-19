@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/Pets"
+            android:title="Pets">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_Dogs"
+                        android:title="Dogs"
+                        />
+                    <item
+                        android:id="@+id/nav_Cats"
+                        android:title="Cats"
+                        />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_Calendari"
+            android:title="Add Event"
+            android:icon="@drawable/calendari_ic_launcher_foreground"
+            />
+    </group>
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Media Recorder"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:id="@+id/tvTitol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/presence_audio_online"
+        app:layout_constraintEnd_toStartOf="@id/pausar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitol"
+        android:id="@+id/gravar"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/presence_audio_away"
+        app:layout_constraintEnd_toStartOf="@id/stop"
+        app:layout_constraintStart_toEndOf="@id/gravar"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitol"
+        android:id="@+id/pausar"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/presence_audio_busy"
+        app:layout_constraintEnd_toStartOf="@id/play"
+        app:layout_constraintStart_toEndOf="@id/pausar"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitol"
+        android:id="@+id/stop"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_media_play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/stop"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitol"
+        android:id="@+id/play"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

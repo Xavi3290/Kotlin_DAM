@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Fer Cast"
+        android:icon="@drawable/ic_cast_foreground"
+        app:showAsAction="ifRoom"
+        android:id="@+id/fercast"
+        />
+    <item
+        android:title="Compartir"
+        android:icon="@drawable/ic_share_foreground"
+        app:showAsAction="ifRoom"
+        android:id="@+id/fershare"
+        />
+    <item
+        android:id="@+id/anar2act"
+        android:title="Anar a la 2a activity"
+        />
+    <item android:title="Grup">
+        <menu>
+            <group>
+                <item android:title="Subopcio 1" android:id="@+id/sop1"/>
+                <item android:title="Subopcio 2" android:id="@+id/sop2"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

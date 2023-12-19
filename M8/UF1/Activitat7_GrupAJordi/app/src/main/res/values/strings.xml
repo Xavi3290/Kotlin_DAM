@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Activity 7 Group A</string>
+    <string name="nom_d_usuari">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_assignatures">AssignaturesActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="m6uf1">UF1. Persistence in files</string>
+    <string name="m6">"M06 Access to data "</string>
+    <string name="m6uf2">UF2. Persistence in BDR-BDOR-BDOO</string>
+    <string name="m6uf3">UF3. Persistence in native XML DBs</string>
+    <string name="m6uf4">UF4. Data access components</string>
+    <string name="m7">M07. Interface development</string>
+    <string name="m7uf1">UF1. Design and implementation of interfaces</string>
+    <string name="m7uf2">UF2. Preparation and distribution of applications</string>
+    <string name="m8uf3">UF3. Development of games for mobile devices</string>
+    <string name="m8uf2">UF2. Multimedia programming</string>
+    <string name="m8uf1">UF1. Development of applications for mobile devices</string>
+    <string name="m8">M08 Multimedia programming and mobile devices</string>
+    <string name="m9uf3">UF3. Sockets and services</string>
+    <string name="m9uf2">UF2. Processes and Threads</string>
+    <string name="m9uf1">UF1. Security and cryptography</string>
+    <string name="m9">M09 Programming of services and processes</string>
+    <string name="m10uf1">UF1. Security and cryptography</string>
+    <string name="m10">M10 Business management systems</string>
+    <string name="m10uf2">UF2. ERP-CRM systems. Exploitation and adaptation.</string>
+    <string name="m13uf1">UF1. Multi-platform application development project</string>
+    <string name="m13">"M13 Multi-platform application development project "</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cos">Body</string>
+    <string name="enviar">Submit</string>
+    <string name="assumpte">Subject</string>
+    <string name="direcci_email">Email Adress</string>
+</resources>

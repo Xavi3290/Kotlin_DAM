@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Activitat1XavierRocaPérez</string>
+    <string name="segon_numero">Segon Número</string>
+    <string name="primer_numero">Primer Número</string>
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="multi">*</string>
+    <string name="divi">/</string>
+    <string name="resultat">Resultat</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pr1XavierRoca</string>
+    <string name="usuari">User</string>
+    <string name="protectora_web">Web Protector</string>
+    <string name="protectora_d_animals_matarosaveanimals">Protector of animals MataroSaveAnimals</string>
+    <string name="year">Any</string>
+    <string name="mounth">Mes</string>
+    <string name="day">Dia</string>
+    <string name="Begining">Inici</string>
+    <string name="Final">Final</string>
+    <string name="Send">Enviar</string>
+</resources>

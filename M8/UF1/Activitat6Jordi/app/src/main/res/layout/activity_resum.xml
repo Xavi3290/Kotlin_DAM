@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="false">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResumActivity">
+
+    <TextView
+        android:id="@+id/TitolResum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginTop="15dp"
+        android:hint="Pregunta 1"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitolResum" />
+
+    <TextView
+        android:id="@+id/respostaUsuariPr1"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/teal_700"
+        android:hint="Resposta usuari P1"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/p1" />
+
+    <TextView
+        android:id="@+id/respostaCorrectaPr1"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Resposta correcta P1"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/respostaUsuariPr1" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Pregunta 2"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respostaCorrectaPr1" />
+
+    <TextView
+        android:id="@+id/respostaUsuariPr2"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Resposta usuari P2"
+        android:textColor="@color/teal_700"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/p2" />
+
+    <TextView
+        android:id="@+id/respostaCorrectaPr2"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Resposta correcta P2"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/respostaUsuariPr2" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Pregunta 3"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respostaCorrectaPr2" />
+
+    <TextView
+        android:id="@+id/respostaUsuariPr3"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/teal_700"
+        android:hint="Resposta usuari P3"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/p3" />
+
+    <TextView
+        android:id="@+id/respostaCorrectaPr3"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Resposta correcta P3"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/respostaUsuariPr3" />
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Pregunta 4"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respostaCorrectaPr3" />
+
+    <TextView
+        android:id="@+id/respostaUsuariPr4"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/teal_700"
+        android:hint="Resposta usuari P4"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/p4" />
+
+    <TextView
+        android:id="@+id/respostaCorrectaPr4"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Resposta correcta P4"
+        android:textColor="@color/resposta_correcta"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/respostaUsuariPr4" />
+
+    <TextView
+        android:id="@+id/p5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Pregunta 5"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respostaCorrectaPr4" />
+
+    <TextView
+        android:id="@+id/respostaUsuariPr5"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/teal_700"
+        android:hint="Resposta usuari P5"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/p5" />
+
+    <TextView
+        android:id="@+id/respostaCorrectaPr5"
+        android:layout_width="289dp"
+        android:layout_height="@dimen/alcadarespostes"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="Resposta correcta P5"
+        android:textColor="@color/resposta_correcta"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/respostaUsuariPr5" />
+
+    <TextView
+        android:id="@+id/nota"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/ic_baseline_check_box_outline_blank_24"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="66dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logopetit" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/check"
+        android:title="Menu Check"
+        android:checkable="true"
+        android:checked="false"
+        />
+    <item
+        android:id="@+id/web"
+        android:title="Mostrar Web"
+        android:icon="@drawable/ic_web_foreground"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/fercast"
+        android:title="Fer Cast"
+        android:icon="@drawable/ic_cast_foreground"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/anar2activity"
+        android:title="2ª Activity"
+        />
+    <item android:title="Fer coses">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/sop1"
+                    android:title="Email"
+                />
+                <item
+                    android:id="@+id/sop2"
+                    android:title="Anotacio Calendari"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

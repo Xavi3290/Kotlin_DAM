@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExempleRutesGoogleMaps</string>
+    <string name="rutes_api_key">5b3ce3597851110001cf6248235a4d737f7c4aaaaff21b820951f57b</string>
+</resources>

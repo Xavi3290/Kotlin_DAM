@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activitat6</string>
+    <string name="Act6XavierRoca">Act6XavierRoca</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acabar_examen">Acabar Examen</string>
+</resources>

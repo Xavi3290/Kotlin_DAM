@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/image"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/descripcio"
+        android:layout_below="@id/image"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        tools:text="descripció"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/preu"
+        tools:text="10 €"
+        android:gravity="end"
+        android:layout_marginStart="15dp"
+        android:layout_below="@id/image"
+        android:layout_toRightOf="@id/descripcio"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FF6D00"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

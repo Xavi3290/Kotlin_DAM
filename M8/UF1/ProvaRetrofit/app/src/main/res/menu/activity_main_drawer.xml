@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_good"
+            android:title="@string/menu_home" />
+        <item
+            android:title="Categoria">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_smartphones"
+                        android:title="Smartphones"/>
+                    <item
+                        android:id="@+id/nav_computers"
+                        android:title="Computers"/>
+                    <item
+                        android:id="@+id/nav_modificar"
+                        android:title="Afegir"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mcheck"
+        android:title="Entrar"
+        android:checkable="true"
+        android:checked="false"
+        />
+    <item
+        android:id="@+id/mweb"
+        android:title="Youtube"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_web_foreground"
+        />
+    <item android:title="El teu email">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/mgmail"
+                    android:title="E-mail"
+                    />
+                <item
+                    android:id="@+id/mcalendari"
+                    android:title="Calendari"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

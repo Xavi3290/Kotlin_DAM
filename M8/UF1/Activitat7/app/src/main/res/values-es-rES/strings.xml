@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actividad 7</string>
+    <string name="menu_home">Principal</string>
+    <string name="_2n_de_cfgs_de_dam">2n of CFGS of DAM</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+    <string name="action_settings">Opciones</string>
+    <string name="m6_acc_s_a_dades">M6 - Acceso a Datos</string>
+    <string name="uf1_persist_ncia_en_fiters">UF1 - Persistencia en archivos</string>
+    <string name="persist_ncia_en_bdr_bdor_bdoo">UF2 - Persistencia en BDR-BDOR-BDOO</string>
+    <string name="persist_ncia_en_bd_natives_xml">"UF3 - Persistencia en BD nativas XML  "</string>
+    <string name="components_d_acc_s_a_dades">UF4 - Componentes de acceso a datos</string>
+    <string name="m7_desenvolupament_d_interficies">M7 - Desarrollo de interficies</string>
+    <string name="uf1_disseny_i_implementaci_d_interf_cies">UF1 - Diseño e implementación de interfaces</string>
+    <string name="uf2_preparaci_i_distribuci_d_aplicacions">UF2 - Preparación y distribución de aplicaciones</string>
+    <string name="m8_programaci_multim_dia_i_dispositius_m_bils">M8 - Programación multimedia y dispositivos móviles</string>
+    <string name="uf1_desenvolupament_d_aplicacions_per_dispositius_m_bils">UF1 - Desarrollo de aplicaciones por dispositivos móviles</string>
+    <string name="uf2_programaci_multim_dia">UF2 - Programación multimedia</string>
+    <string name="uf3_desenvolupament_de_jocs_per_dispositius_m_bils">UF3 - Desarrollo de juegos por dispositivos móviles</string>
+    <string name="m0_programaci_de_serveis_i_processos">M9 - Programación de servicios y procesos</string>
+    <string name="uf1_seguretat_i_criptografia">UF1 - Seguridad y Criptografía</string>
+    <string name="uf2_processos_i_fils">UF2 - Procesos e hilos</string>
+    <string name="uf3_s_cols_i_serveis">UF3 - Zócalos y servicios</string>
+    <string name="m10_sistemes_de_gesti_empresarial">M10 - Sistemas de gestión empresarial</string>
+    <string name="uf1_sistemes_erp_crm_implantaci">UF1 - Sistemas ERP-CRM. Implantación</string>
+    <string name="uf2_sistemes_erp_crm_explotaci_i_adequaci">UF2 - Sistemas ERP-CRM. Explotación y adecuación</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="principal">Principal</string>
+</resources>

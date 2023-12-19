@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_ordinadors"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Busca pel nom"
+        android:id="@+id/tvFiltrar"
+
+        android:singleLine="true"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+
+        android:layout_marginVertical="15dp"
+        android:textSize="20sp"
+        android:textColor="#FF6D00"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv1"
+        />
+
+</LinearLayout>

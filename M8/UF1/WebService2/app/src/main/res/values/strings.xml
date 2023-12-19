@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The Cat Api</string>
+    <string name="adaptability">Adaptability:</string>
+    <string name="affection_level">Affection level:</string>
+    <string name="url">URL:</string>
+    <string name="child_friendly">Child friendly:</string>
+    <string name="description">Description:</string>
+    <string name="dog_friendly">Dog Friendly:</string>
+    <string name="energy_level">Energy Level:</string>
+    <string name="temperament">Temperament:</string>
+    <string name="apikey">live_nifQZDQbQYASRcJUa1j8fKRqqf2qVmS8Ap6DCgC5dzKaXGnGotY7lOhEbAkSqgm0</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pr1XavierRoca</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+    <string name="nav_header_desc">Cabecera navigation</string>
+    <string name="action_settings">Opciones</string>
+    <string name="menu_home">Principal</string>
+    <string name="usuari">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registro</string>
+    <string name="login">Entrar</string>
+    <string name="protectora_d_animals_matarosaveanimals">Protectora de animales MataroSaveAnimals</string>
+    <string name="anyo">Any</string>
+    <string name="mes">Mes</string>
+    <string name="dia">Dia</string>
+    <string name="inicio">Inici</string>
+    <string name="Final">Final</string>
+    <string name="enviar">Enviar</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activity 7</string>
+    <string name="menu_home">Home</string>
+    <string name="m6_acc_s_a_dades">M6 - Access to Data</string>
+    <string name="uf1_persist_ncia_en_fiters">UF1 - File Persistence</string>
+    <string name="persist_ncia_en_bdr_bdor_bdoo">UF2 - Persistence in BDR-BDOR-BDOO</string>
+    <string name="persist_ncia_en_bd_natives_xml">UF3 - Persistence in native XML DBs</string>
+    <string name="components_d_acc_s_a_dades">UF4 - Data access components</string>
+    <string name="m7_desenvolupament_d_interficies">M7 - Development of interfaces</string>
+    <string name="uf1_disseny_i_implementaci_d_interf_cies">UF1 - Design and implementation of interfaces</string>
+    <string name="uf2_preparaci_i_distribuci_d_aplicacions">UF2 - Preparation and distribution of applications</string>
+    <string name="m8_programaci_multim_dia_i_dispositius_m_bils">M8 - Multimedia programming and mobile devices</string>
+    <string name="uf1_desenvolupament_d_aplicacions_per_dispositius_m_bils">UF1 - Development of applications for mobile devices</string>
+    <string name="uf2_programaci_multim_dia">UF2 - Multimedia programming</string>
+    <string name="uf3_desenvolupament_de_jocs_per_dispositius_m_bils">UF3 - Development of games for mobile devices</string>
+    <string name="m0_programaci_de_serveis_i_processos">M9 - Programming of services and processes</string>
+    <string name="uf1_seguretat_i_criptografia">UF1 - Security and Cryptography</string>
+    <string name="uf2_processos_i_fils">UF2 - Processes and threads</string>
+    <string name="uf3_s_cols_i_serveis">UF3 - Sockets and services</string>
+    <string name="m10_sistemes_de_gesti_empresarial">M10 - Business management systems</string>
+    <string name="uf1_sistemes_erp_crm_implantaci">UF1 - ERP-CRM systems. Implementation</string>
+    <string name="uf2_sistemes_erp_crm_explotaci_i_adequaci">UF2 - ERP-CRM systems. Exploitation and adaptation</string>
+    <string name="principal">Home</string>
+</resources>

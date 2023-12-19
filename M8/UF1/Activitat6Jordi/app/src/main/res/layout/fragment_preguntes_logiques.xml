@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreguntesLogiques">
+
+    <TextView
+        android:id="@+id/preguntalogica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pregunta lògica"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preguntalogica"
+        android:layout_marginTop="30dp"
+        android:id="@+id/rgopcions"
+        android:layout_marginStart="40dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/opcioTrue"
+            android:text="Cert"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/opcioFalse"
+            android:text="Fals"/>
+    </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="6dp"
+    android:layout_margin="15dp">
+
+    <!-- Cardview amb un constrainlayout dintre, els dos
+       width match parent
+       height wrap content
+       cardCornerRadius redondea las escinas
+       cardElevation lo eleva
+       layout_margin pone margen en todos los lados por igual
+       -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/iv_Imatge"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_Temp"
+            />
+
+        <TextView
+            android:id="@+id/tv_Temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textSize="80dp"
+            app:layout_constraintStart_toEndOf="@id/iv_Imatge"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_Simbol"
+            tools:text="22"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Simbol"
+            app:layout_constraintStart_toEndOf="@id/tv_Temp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_Hora"
+            android:text="@string/c_f"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Hora"
+            app:layout_constraintStart_toEndOf="@id/tv_Simbol"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="hora"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Precipitacio"
+            app:layout_constraintStart_toEndOf="@id/tv_Simbol"
+            app:layout_constraintTop_toBottomOf="@id/tv_Hora"
+            tools:text="Precipitacio"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Humitat"
+            app:layout_constraintStart_toEndOf="@id/tv_Simbol"
+            app:layout_constraintTop_toBottomOf="@id/tv_Precipitacio"
+            tools:text="Humitat"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_Vent"
+            app:layout_constraintStart_toEndOf="@id/tv_Simbol"
+            app:layout_constraintTop_toBottomOf="@id/tv_Humitat"
+            tools:text="Vent"
+            android:layout_marginStart="10dp"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

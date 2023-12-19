@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pr1XavierRoca</string>
+    <string name="navigation_drawer_open">Obre navigation drawer</string>
+    <string name="navigation_drawer_close">Tancar navigation drawer</string>
+    <string name="nav_header_desc">Capçalera navigation</string>
+    <string name="action_settings">Opcions</string>
+    <string name="menu_home">Principal</string>
+    <string name="password">Contrasenya</string>
+    <string name="register">Registre</string>
+    <string name="login">Acedir</string>
+</resources>

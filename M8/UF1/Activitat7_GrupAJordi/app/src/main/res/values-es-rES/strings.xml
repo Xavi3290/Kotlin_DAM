@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actividad7 Grupo A</string>
+    <string name="nom_d_usuari">Nombre de usuari</string>
+    <string name="password">Contraseña</string>
+    <string name="action_settings">Configuración</string>
+    <string name="menu_home">Inicio</string>
+    <string name="m6uf1">UF1. Persistencia en ficheros</string>
+    <string name="m6">M06. Acceso a datos.</string>
+    <string name="m6uf2">UF2. Persistencia en BDR-BDOR-BDOO</string>
+    <string name="m6uf3">UF3. Persistencia en BD nativas XML</string>
+    <string name="m6uf4">UF4. Componentes de acceso a datos.</string>
+    <string name="m7">M07. Desarrollo de interficies.</string>
+    <string name="m7uf1">UF1. Diseño y implementación de interficies.</string>
+    <string name="m7uf2">UF2. Preparación y distribución de aplicaciones.</string>
+    <string name="m8uf3">UF3. Desarrollo de juegos para dispositivos móbiles.</string>
+    <string name="m8uf2">UF2. Programación multimedia.</string>
+    <string name="m8uf1">UF1. Desarrollo de aplicaciones para dispositivos móbiles.</string>
+    <string name="m8">M08. Programación multimedia y dispositivos móbiles.</string>
+    <string name="m9uf3">UF3. Zócalos y servicios.</string>
+    <string name="m9uf2">UF2. Procesos y hilos.</string>
+    <string name="m9uf1">UF1. Seguridad y criptografia.</string>
+    <string name="m9">M09. Programación de servicios y procesos.</string>
+    <string name="m10uf1">UF1. Sistemas ERP-CRM. Implantación.</string>
+    <string name="m10">M10. Sistemas de gestión empresarial.</string>
+    <string name="m10uf2">UF2. Sistemas ERP-CRM. Explotación y adecuación.</string>
+    <string name="m13uf1">UF1. Proyecto de desarrollo de aplicaciones multiplataforma.</string>
+    <string name="m13">M13. Proyecto de desarrollo de aplicaciones multiplataforma.</string>
+    <string name="cos">Cuerpo</string>
+    <string name="enviar">Enviar</string>
+    <string name="assumpte">Asunto</string>
+    <string name="direcci_email">Dirección de email</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExempleNavigationDrawer</string>
+    <string name="navigation_drawer_open">Obrir navigation drawer</string>
+    <string name="action_settings">Configuració</string>
+    <string name="menu_home">Inici</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="begudes">Beguda</string>
+    <string name="carn">Carn</string>
+    <string name="alimentacio">Menjar</string>
+    <string name="xampus">Xampu</string>
+    <string name="desodorant">Desodorant</string>
+    <string name="drogeria">Drogueria</string>
+    <string name="hello_blank_fragment">Hola framgment buit</string>
+    <string name="hello_deodorants">Hola! estas al fragment de desodorant</string>
+</resources>

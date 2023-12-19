@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EsborrarProducte">
+
+    <TextView
+        android:id="@+id/titolEsborrarProducte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Esborrar producte"
+        android:textAlignment="center"
+        android:textColor="#3949AB"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/CodiEsborrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titolEsborrarProducte"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#E0F7FA" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/CodiEsborrar">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripció"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_margin="10dp"
+            android:id="@+id/descEsborrarProducte"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripció completa"
+            android:id="@+id/descEsborrarCompleta"
+            android:layout_margin="10dp"
+            android:layout_below="@id/descEsborrarProducte"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imatge"
+            android:id="@+id/imatgeEsborrar"
+            android:layout_margin="10dp"
+            android:layout_below="@id/descEsborrarCompleta"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/preuEsborrar"
+            android:layout_margin="10dp"
+            android:hint="Preu"
+            android:inputType="numberDecimal"
+            android:layout_below="@id/imatgeEsborrar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTipusProducteEsborrar"
+            android:text="Tipus de producte"
+            android:layout_margin="10dp"
+            android:layout_below="@id/preuEsborrar"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#1E88E5"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTipusProducteEsborrar"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:id="@+id/rgTipusProducte">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusOrdinador"
+                android:text="Ordinador"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusSmartphone"
+                android:text="Smartphone"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusTV"
+                android:text="TV"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusMobilitat"
+                android:text="Mobilitat"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCardViewEsborrar"
+            android:text="Tipus de CardView"
+            android:layout_margin="10dp"
+            android:layout_below="@id/rgTipusProducte"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#1E88E5"/>
+
+        <RadioGroup
+            android:id="@+id/rgTipusCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCardViewEsborrar"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipusCVNormal"
+                android:layout_margin="5dp"
+                android:text="Normal" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipusCVOferta"
+                android:layout_margin="5dp"
+                android:text="Oferta" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/tipusCVEspecial"
+                android:text="Especial" />
+        </RadioGroup>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btEsborrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rgTipusCardView"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="10dp"
+            android:src="@android:drawable/ic_menu_edit" />
+    </RelativeLayout>
+
+</RelativeLayout>

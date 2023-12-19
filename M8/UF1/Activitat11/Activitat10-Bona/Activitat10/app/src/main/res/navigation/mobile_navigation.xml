@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home_good">
+
+    <fragment
+        android:id="@+id/nav_home_good"
+        android:name="com.example.activitat9bona.nav_home_good"
+        android:label="fragment_nav_home_good"
+        tools:layout="@layout/fragment_nav_home_good" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.activitat9bona.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_ordinadors"
+        android:name="com.example.activitat9bona.nav_ordinadors"
+        android:label="fragment_nav_ordinadors"
+        tools:layout="@layout/fragment_nav_ordinadors" />
+    <fragment
+        android:id="@+id/nav_smartphones"
+        android:name="com.example.activitat9bona.nav_smartphones"
+        android:label="fragment_nav_smartphones"
+        tools:layout="@layout/fragment_nav_smartphones" />
+    <fragment
+        android:id="@+id/nav_movilitat"
+        android:name="com.example.activitat9bona.nav_movilitat"
+        android:label="fragment_nav_movilitat"
+        tools:layout="@layout/fragment_nav_movilitat" />
+    <fragment
+        android:id="@+id/nav_televisions"
+        android:name="com.example.activitat9bona.nav_televisions"
+        android:label="fragment_nav_televisions"
+        tools:layout="@layout/fragment_nav_televisions" />
+    <fragment
+        android:id="@+id/nav_venedor"
+        android:name="com.example.activitat9bona.nav_venedor"
+        android:label="fragment_nav_venedor"
+        tools:layout="@layout/fragment_nav_venedor" />
+
+
+</navigation>

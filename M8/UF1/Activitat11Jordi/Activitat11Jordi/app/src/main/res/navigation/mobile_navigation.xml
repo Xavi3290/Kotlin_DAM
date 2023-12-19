@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_ini">
+
+    <fragment
+        android:id="@+id/smartphones"
+        android:name="com.example.activitat10.smartphones"
+        android:label="Smartphones"
+        tools:layout="@layout/fragment_smartphones" >
+        <action
+            android:id="@+id/action_smartphones_to_nav_ini"
+            app:destination="@id/nav_ini"
+            app:popUpTo="@id/nav_ini" />
+    </fragment>
+    <fragment
+        android:id="@+id/tv"
+        android:name="com.example.activitat10.tv"
+        android:label="Televisors"
+        tools:layout="@layout/fragment_tv" >
+        <action
+            android:id="@+id/action_tv_to_nav_ini"
+            app:destination="@id/nav_ini"
+            app:popUpTo="@id/nav_ini"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/computers"
+        android:name="com.example.activitat10.computer"
+        android:label="Ordinadors"
+        tools:layout="@layout/fragment_computer" >
+        <action
+            android:id="@+id/action_computers_to_nav_ini"
+            app:destination="@id/nav_ini"
+            app:popUpTo="@id/nav_ini"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mobility"
+        android:name="com.example.activitat10.movility"
+        android:label="Movilitat"
+        tools:layout="@layout/fragment_movility" >
+        <action
+            android:id="@+id/action_mobility_to_nav_ini"
+            app:destination="@id/nav_ini" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_ini"
+        android:name="com.example.activitat10.nav_ini"
+        android:label="Botiga d'electrònica"
+        tools:layout="@layout/fragment_nav_ini" >
+        <action
+            android:id="@+id/action_nav_ini_to_tv"
+            app:destination="@id/tv"
+            app:popUpTo="@id/tv"/>
+        <action
+            android:id="@+id/action_nav_ini_to_mobility"
+            app:destination="@id/mobility"
+            app:popUpTo="@id/mobility"/>
+        <action
+            android:id="@+id/action_nav_ini_to_computers"
+            app:destination="@id/computers"
+            app:popUpTo="@id/computers"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_nav_ini_to_smartphones"
+            app:destination="@id/smartphones"
+            app:popUpTo="@id/smartphones"/>
+        <action
+            android:id="@+id/action_nav_ini_to_afegirProducte2"
+            app:destination="@id/afegirProducte" />
+        <action
+            android:id="@+id/action_nav_ini_to_modificarProducte2"
+            app:destination="@id/modificarProducte" />
+    </fragment>
+    <fragment
+        android:id="@+id/afegirProducte"
+        android:name="com.example.activitat10.AfegirProducte"
+        android:label="Afegir Producte"
+        tools:layout="@layout/fragment_afegir_producte" />
+    <fragment
+        android:id="@+id/modificarProducte"
+        android:name="com.example.activitat10.ModificarProducte"
+        android:label="Modificar Producte"
+        tools:layout="@layout/fragment_modificar_producte" />
+    <fragment
+        android:id="@+id/esborrarProducte"
+        android:name="com.example.activitat10.EsborrarProducte"
+        android:label="Esborrar Producte"
+        tools:layout="@layout/fragment_esborrar_producte" />
+
+</navigation>
